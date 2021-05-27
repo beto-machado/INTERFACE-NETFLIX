@@ -46,7 +46,7 @@ header nav a:hover{
 /*filme principal*/
 .filme-principal{
     font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/divertidamente.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('img/capa-bita.png');
 
     height:400px;
     background-size:cover;
@@ -114,8 +114,16 @@ header nav a:hover{
     margin-top:5px;
 }
 
+.box-principal{
+    display: flex;
+    flex-direction: row;
 
+}
 
+.imagem{
+    height: auto;
+    width: 70%;
+}
 
 
 
